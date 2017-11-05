@@ -1,7 +1,7 @@
 lldpd
 ====
 
-Install the `lldpd` from EPEL.  Overrides can be used to install `lldpad` instead.
+Install ``lldpd`` from EPEL.  Overrides can be used to install ``lldpad`` instead.
 
 .. note::
     Requires the
@@ -16,7 +16,7 @@ Available states
 ``lldpd``
 --------
 
-Installs the `lldpd` package for the current OS.
+Installs the ``lldpd`` package for the current OS.
 
 The package, service, and dependent formula can be set by setting the appropraite
 Pillar.  See `pillar.example <https://github.com/supertylerc/lldpd/pillar.example`_
