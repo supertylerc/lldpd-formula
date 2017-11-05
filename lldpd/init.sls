@@ -11,7 +11,7 @@ install_lldpd:
     - name: {{ lldpd.package }}
     {%- if formula %}
     - require:
-      - pkg: {{ formula }}
+      - {{ formula }}
     {%- endif %}
 
 start_lldp:
