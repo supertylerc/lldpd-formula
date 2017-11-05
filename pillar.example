@@ -1,0 +1,7 @@
+lldpd:
+  lookup:
+    # supertylerc: use lldpad instead of lldpd
+    package: lldpad
+    service: lldpad
+    # supertylerc: lldpad doesn't require epel on RHEL, so set it to false
+    required_formula: false

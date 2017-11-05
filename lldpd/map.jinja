@@ -1,0 +1,7 @@
+{% set lldpd = salt['grains.filter_by']({
+  'RedHat': {
+    'package': 'lldpd',
+    'service': 'lldpd',
+    'required_formula': 'epel'
+  }
+}, merge=salt['pillar.get']('lldpd:lookup')) %}
