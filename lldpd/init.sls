@@ -12,7 +12,7 @@ install_lldpd:
     {%- if formula %}
     - require:
       - pkg: {{ formula }}
-    {%- endfor %}
+    {%- endif %}
 
 start_lldp:
   service.running:
