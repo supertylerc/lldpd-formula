@@ -19,7 +19,7 @@ Available states
 Installs the ``lldpd`` package for the current OS.
 
 The package, service, and dependent formula can be set by setting the appropraite
-Pillar.  See `pillar.example <https://github.com/supertylerc/lldpd/pillar.example`_
+Pillar.  See `pillar.example <https://github.com/supertylerc/lldpd/pillar.example>`_
 for examples.
 
 .. note::
